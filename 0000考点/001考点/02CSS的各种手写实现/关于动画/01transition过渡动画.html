@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            /*动画作用的属性和时间是一定要写的 要不然就没有过渡效果*/
+            transition: width 3s ease-in;
+            background-color: pink;
+        }
+        div:hover{
+            /*指定属性非默认的值 这样才会有过渡动画的效果*/
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

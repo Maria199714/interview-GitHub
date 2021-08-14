@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body,.container{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+    /*    左边盒子 150px ,右边盒子 200px*/
+        .container{
+            padding: 0 200px 0 150px;
+            /*边框内缩*/
+            box-sizing: border-box;
+        }
+        .column{
+            position: relative;
+            float: left;
+            height: 100%;
+        }
+        .middle{
+            width: 100%;
+            background-color: magenta;
+        }
+        .left{
+            width: 150px;
+            left: -150px;
+            margin-left: -100%;
+            background-color: #61dafb;
+        }
+        .right{
+            width: 200px;
+            right: -200px;
+            margin-left: -200px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="column middle">1</div>
+    <div class="column left">2</div>
+    <div class="column right">3</div>
+</div>
+</body>
+</html>

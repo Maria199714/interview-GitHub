@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img data-src="im01.png" alt="">
+<img data-src="im01.png" alt="">
+<img data-src="im01.png" alt="">
+<script>
+    let images=document.querySelectorAll('img');
+    window.addEventListener('scroll',function (e) {
+        images.forEach((image)=>{
+            let imageTop=image.getBoundingClientRect().top;
+            if (imageTop<window.innerHeight){
+                let data_src=image.getAttribute('data-src');
+                image.setAttribute('src',data_src);
+            }
+        })
+    })
+</script>
+</body>
+</html>

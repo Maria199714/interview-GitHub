@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer{
+            display: flex;
+        }
+        .left,.right{
+            width: 300px;
+            height: 600px;
+            background-color: #61dafb;
+        }
+        .mid{
+            /*意味着这个盒子可以自动的放大缩小 这里也可以写 flex：1*/
+            flex: 1;
+            height: 600px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="left">1</div>
+    <div class="mid">2</div>
+    <div class="right">3</div>
+</div>
+</body>
+</html>

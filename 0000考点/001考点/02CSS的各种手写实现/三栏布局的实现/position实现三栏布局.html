@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer{
+            position: relative;
+            min-width: 300px;
+        }
+
+        .inner{
+            position: absolute;
+            top:0;
+            height: 600px;
+        }
+        .left{
+            left: 0;
+            background-color: rebeccapurple;
+            width: 300px;
+        }
+        .right{
+            right: 0;
+            background-color: #61dafb;
+            width: 300px;
+        }
+        .mid{
+            left: 300px;
+            right: 300px;
+            background-color: magenta;
+            /*计算中间的自适应宽度*/
+            /*width: calc(100% - 600px);*/
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="inner left">1</div>
+    <div class="inner mid">2</div>
+    <div class="inner right">3</div>
+</div>
+</body>
+</html>

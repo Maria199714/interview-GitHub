@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer{
+            display: grid;
+            width: 100%;
+            /*每一行要多高*/
+            grid-template-rows: 600px;
+            /*每一列有多宽*/
+            grid-template-columns: 300px auto 300px;
+        }
+        .left,.right{
+            background-color: magenta;
+        }
+        .mid{
+            background-color: #61dafb;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="inner left">1</div>
+    <div class="inner mid">2</div>
+    <div class="inner right">3</div>
+</div>
+</body>
+</html>

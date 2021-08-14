@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .outer{
+            width: 100%;
+            min-width: 300px;
+        }
+        .side{
+            width: 300px;
+            height: 600px;
+            background-color: darkslategrey;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+        .mid{
+            /*计算中间的宽度 这个可以让中间的宽度自适应*/
+            width: calc(100% - 600px);
+            /*margin-left:300px;*//*这个也可以*/
+            float: left;
+            background-color: rebeccapurple;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="outer">
+    <div class="side left">1</div>
+    <div class="side right">2</div>
+    <div class="mid">3</div>
+</div>
+</body>
+</html>
