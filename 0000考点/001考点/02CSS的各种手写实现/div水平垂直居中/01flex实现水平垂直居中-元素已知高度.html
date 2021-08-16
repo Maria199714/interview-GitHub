@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            /*设置父元素为flex布局*/
+            display: flex;
+            background: #61dafb;
+            /*使flex容器里面的项目水平垂直居中*/
+            align-items: center;/*定义项目在交叉轴上的对齐方式，即垂直方向上的对齐，即在垂直方向上居中*/
+            justify-content: center;/*定义项目在主轴上的对齐方式，这里的主轴是x轴，即在水平方向上居中*/
+        }
+        .a{
+            width: 300px;
+            height: 300px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="a"></div>
+</div>
+</body>
+</html>

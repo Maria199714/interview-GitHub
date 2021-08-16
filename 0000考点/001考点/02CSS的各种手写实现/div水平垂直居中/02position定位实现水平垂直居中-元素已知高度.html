@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*父元素设置为：position: relative;*/
+        /*子元素设置为：position: absolute;*/
+        /*子绝父相*/
+        /*距上50%，距左50%，然后减去元素自身宽度的一半距离就可以实现*/
+        .box{
+            width: 500px;
+            height: 500px;
+            background: rebeccapurple;
+            position: relative;
+        }
+        .a{
+            width: 300px;
+            height: 300px;
+            background: red;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            /*margin: -150px 0 0 -150px;*/
+            /*将自身向上和向左挪动50%*/
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="a"></div>
+</div>
+</body>
+</html>
