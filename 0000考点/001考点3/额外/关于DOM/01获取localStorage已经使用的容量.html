@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    (function () {
+        console.log(window.localStorage);
+        var size=0;
+        for (let item in window.localStorage){{
+            if (window.localStorage.hasOwnProperty(item)){
+                size+=window.localStorage.getItem(item).length;
+            }
+        }}
+        console.log('当前localstorage已使用的容量大小为：'+(size/1024).toFixed(2)+'kb');
+    })();
+</script>
+</body>
+</html>
+<!--怎么判断localstorage满了-->
+<!--方法一-->
+<!--JSON.stringify(localStroage).length和5m上限比较-->
+
+<!--方法二-->
+<!--
+可以遍历每个item,之后根据getItem(item).lenght 判断长度
+  之后把长度全部加起来, 之后进行1024计算  看超过没超过5兆
+-->

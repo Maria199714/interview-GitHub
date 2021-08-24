@@ -16,4 +16,4 @@ Array.prototype.findDuplicate=function (n) {
 };
 
 
-console.log([1,2,3,4,1,2,2,2].findDuplicate(5) );
+console.log([1,2,3,4,1,2,2,2].findDuplicate(2) );
