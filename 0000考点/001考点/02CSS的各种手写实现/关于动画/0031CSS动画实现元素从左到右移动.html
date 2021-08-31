@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .big{
+            width: 100%;
+            position: relative;
+        }
+        .small{
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 0;
+            background-color: red;
+            animation: move 3s;
+        }
+        @keyframes move {
+            from{left: 0;}
+            to{left: 100px;}
+        }
+    </style>
+</head>
+<body>
+<div class="big">
+    <div class="small"></div>
+</div>
+</body>
+</html>

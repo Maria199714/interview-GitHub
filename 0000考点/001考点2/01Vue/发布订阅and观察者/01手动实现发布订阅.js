@@ -1,4 +1,8 @@
-
+/*
+实现的思路：
+创建一个对象（缓存列表）
+on方法用来把回调函数fn都加到缓存列表中
+ */
 //发布订阅核心：每次 event.emit（发布），就会触发一次emit.on（注册）
 class EventEmitter {
     constructor() {

@@ -12,6 +12,7 @@
     let images=document.querySelectorAll('img');
     window.addEventListener('scroll',function (e) {
         images.forEach((image)=>{
+            //获取图片的当前距离浏览器视口的高度距离
             let imageTop=image.getBoundingClientRect().top;
             if (imageTop<window.innerHeight){
                 let data_src=image.getAttribute('data-src');

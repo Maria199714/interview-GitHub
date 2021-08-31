@@ -15,3 +15,9 @@ let obj={
 };
 let copyObj=JSON.parse(JSON.stringify(obj));
 console.log(copyObj);
+
+let arr=[1,2,3];
+let newArr=JSON.parse(JSON.stringify(arr));
+console.log(newArr);
+
+// 无法实现对函数、RegExp等特殊对象的克隆
