@@ -1,5 +1,5 @@
 // fn是用户传入需要防抖的函数
-// delay是等待时间
+// delay是等待时间  多次触发以最后一次为准
 function myDebounce(fn,delay) {
     //缓存一个定时器Id
     let timer=null;
@@ -17,7 +17,7 @@ function myDebounce(fn,delay) {
 }
 
 
-
+//多次触发以第一次为准
 function myThrottle(func, delay) {
     let timer = null;
     return function (...args) {

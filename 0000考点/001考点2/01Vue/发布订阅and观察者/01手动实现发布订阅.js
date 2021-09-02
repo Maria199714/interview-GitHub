@@ -25,7 +25,7 @@ class EventEmitter {
         this.events[eventName] && this.events[eventName].forEach(cb => cb());
     }
 
-//    取消事件的方法
+//    取消事件的方法（即将需要取消的事件过滤掉）
     remove(eventName,callback){
         this.events[eventName]=this.events[eventName].filter(fn=>fn!=callback);
     }

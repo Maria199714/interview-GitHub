@@ -14,7 +14,7 @@ function myNew(fn,...args) {
     }
 //    1+2、创建一个空对象，并给这个新对象添加构造函数的属性和方法
     var obj=Object.create(fn.prototype);
-    //3、绑定this值
+    //3、绑定this值 并执行构造函数
     var res=fn.apply(obj,args);
     //4、如果 fn 有返回值 则 作为 new 操作后的返回内容 否则返回obj对象
     return res instanceof Object?res:obj;
