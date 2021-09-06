@@ -14,7 +14,16 @@ function createPromise(time) {
         });
     }
 }
-
+/*
+reduce方法：从数组的第一项，遍历迭代到数组的最后一项
+参数：
+第一个参数：回调函数；有4个参数
+    prev：数组第一项|后面设置的值|上一次迭代的结果
+    cur：当前迭代项
+    index：当前迭代项索引
+    array：迭代的原数组
+第二个参数：设置prev的值，不写的话默认为数组的第一项。
+ */
 function chuanPromise(promiseFunArr) {
     promiseFunArr.reduce((pre,next)=>{
         return pre.then(next);

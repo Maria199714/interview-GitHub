@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul></ul>
+<ul id="second"></ul>
+<script>
+    //1、使用文档碎片的方式
+    var ul=document.querySelector('ul');
+    var frags=document.createDocumentFragment();
+    for (let i=0;i<1000;i++){
+        var oLi=document.createElement('li');
+        oLi.innerHTML=i;
+        frags.appendChild(oLi);
+    }
+    ul.appendChild(frags);
+
+
+//    2、利用是字符串直接写入
+    var ul2=document.getElementById('second');
+    var str='';
+    for (let i=0;i<1000;i++){
+        str+='<li>'+i+'</li>';
+    }
+    ul2.innerHTML=str;
+</script>
+</body>
+</html>

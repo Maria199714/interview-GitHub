@@ -54,19 +54,19 @@
     <configuration name="01提取URL中的各个参数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/0000考点/001考点3/额外/关于URL/01提取URL中的各个参数.js" working-dir="$PROJECT_DIR$/0000考点/001考点3/额外/关于URL">
       <method v="2" />
     </configuration>
-    <configuration name="01用数组实现栈.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现/01用数组实现栈.js" working-dir="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现">
+    <configuration name="02用数组实现队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现/02用数组实现队列.js" working-dir="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现">
       <method v="2" />
     </configuration>
-    <configuration name="02用数组实现队列.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现/02用数组实现队列.js" working-dir="$PROJECT_DIR$/算法与数据结构再一次82/数据结构的实现">
+    <configuration name="19实现JSON的stringify方法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/0000考点/001考点3/额外/19实现JSON的stringify方法.js" working-dir="$PROJECT_DIR$/0000考点/001考点3/额外">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.000.js" />
+        <item itemvalue="Node.js.19实现JSON的stringify方法.js" />
         <item itemvalue="Node.js.01生成1-100之间的随机数.js" />
         <item itemvalue="Node.js.01提取URL中的各个参数.js" />
         <item itemvalue="Node.js.02用数组实现队列.js" />
-        <item itemvalue="Node.js.01用数组实现栈.js" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +98,8 @@
       <workItem from="1630392637462" duration="3513000" />
       <workItem from="1630397371308" duration="382000" />
       <workItem from="1630459812681" duration="17578000" />
+      <workItem from="1630632046853" duration="7772000" />
+      <workItem from="1630747271378" duration="10293000" />
     </task>
     <servers />
   </component>
@@ -110,30 +112,30 @@
     </state>
     <state x="555" y="231" key="FileChooserDialogImpl/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1629286950708" />
     <state x="2900" y="412" key="FileChooserDialogImpl/0.0.1440.920/2160.151.1920.1040@2160.151.1920.1040" timestamp="1628951363760" />
-    <state width="1419" height="265" key="GridCell.Tab.0.bottom" timestamp="1630560680508">
+    <state width="1419" height="186" key="GridCell.Tab.0.bottom" timestamp="1630913202542">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="265" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630560680508" />
+    <state width="1419" height="353" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630889501193" />
     <state width="1402" height="294" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.151.1920.1040@2160.151.1920.1040" timestamp="1630501914566" />
-    <state width="1419" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1629187339594" />
-    <state width="1419" height="265" key="GridCell.Tab.0.center" timestamp="1630560680508">
+    <state width="1419" height="186" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1630913202542" />
+    <state width="1419" height="186" key="GridCell.Tab.0.center" timestamp="1630913202542">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="265" key="GridCell.Tab.0.center/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630560680508" />
+    <state width="1419" height="353" key="GridCell.Tab.0.center/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630889501193" />
     <state width="1402" height="294" key="GridCell.Tab.0.center/0.0.1440.920/2160.151.1920.1040@2160.151.1920.1040" timestamp="1630501914566" />
-    <state width="1419" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1629187339594" />
-    <state width="1419" height="265" key="GridCell.Tab.0.left" timestamp="1630560680508">
+    <state width="1419" height="186" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1630913202542" />
+    <state width="1419" height="186" key="GridCell.Tab.0.left" timestamp="1630913202542">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="265" key="GridCell.Tab.0.left/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630560680508" />
+    <state width="1419" height="353" key="GridCell.Tab.0.left/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630889501193" />
     <state width="1402" height="294" key="GridCell.Tab.0.left/0.0.1440.920/2160.151.1920.1040@2160.151.1920.1040" timestamp="1630501914566" />
-    <state width="1419" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1629187339594" />
-    <state width="1419" height="265" key="GridCell.Tab.0.right" timestamp="1630560680508">
+    <state width="1419" height="186" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1630913202542" />
+    <state width="1419" height="186" key="GridCell.Tab.0.right" timestamp="1630913202542">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1419" height="265" key="GridCell.Tab.0.right/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630560680508" />
+    <state width="1419" height="353" key="GridCell.Tab.0.right/0.0.1440.920/2160.151.1920.1040@0.0.1440.920" timestamp="1630889501193" />
     <state width="1402" height="294" key="GridCell.Tab.0.right/0.0.1440.920/2160.151.1920.1040@2160.151.1920.1040" timestamp="1630501914566" />
-    <state width="1419" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1629187339594" />
+    <state width="1419" height="186" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1630913202542" />
     <state width="1419" height="173" key="GridCell.Tab.1.bottom" timestamp="1630333467982">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
