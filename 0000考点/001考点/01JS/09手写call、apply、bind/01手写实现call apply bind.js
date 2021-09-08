@@ -1,7 +1,6 @@
 
 
 // 手写一个apply方法
-
 Function.prototype.myApply=function (context=window,args) {
     if(typeof this!='function'){
         throw this+'is not a function';
@@ -14,7 +13,6 @@ Function.prototype.myApply=function (context=window,args) {
 
 
 //手写一个call方法
-
 Function.prototype.myCall=function (context=window,...args) {
     if(typeof this!=='function'){
         throw this+'is not a function';
@@ -27,7 +25,6 @@ Function.prototype.myCall=function (context=window,...args) {
 
 
 //手写一个bind方法
-
 Function.prototype.myBind=function (context,...args) {
     if(typeof this!='function'){
         throw this+'is not a function';
